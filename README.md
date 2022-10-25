@@ -1,10 +1,10 @@
-# Computer-Vision
+# `Computer-Vision`
 
  Computer Vision is a cutting edge field of _**Computer Sciene**_ which aims to enable computers to understand what is being seen in an image.
  > It is always a big part of Artificial Intelligence.
  It helps the machine to see and understand the world around them just like in the movie ***Terminator*** with the help of sensors.
  
- ## Computer Vision Challenges:
+ ## `Computer Vision Challenges:`
  
  - Camera sensor & Lens limitation
  > Camera sensors preform bad in low light conditions and create noisy images. Pixelateed image will be formed if zoomed. 
@@ -63,7 +63,7 @@
   
   
   
-  ## Mini Projects covered 
+  ## `Mini Projects covered `
   
   - Live Drawing Sketch of yourself
   - Shape Matching 
@@ -79,7 +79,7 @@
   - Photo Restoration
   
   
-  ## Requirements 
+  ## `Requirements` 
   
   - Webcam 
   - Python 
@@ -92,3 +92,36 @@
  - 3.1.0 lacks important functions like SIFT, SURF, etc.
  
  
+ 
+ ## `What are Images`
+ 
+Images are 2-Dimensional Representation of the visible Light spectrum
+Represented in X-Y dimension like an 2D array
+Each Pixel is a combination of 3 Colours RGB
+
+
+## `How images are formd?`
+
+- When light reflects off an object onto a film, sensor or retina 
+- Using a small barrier (aperture) , we block off most of the rays of light reducing the blurring on the film or sensor
+> This is the pinhole camera
+
+## `Controlling the image formation`
+-Both our camera adn eyes use an adaptive lens to control many aspects of image formation such as:
+> ##Aperture Size
+  - Controls the amount of light allowed through 
+  - Depth of Field (bokeh) 
+> Lens Width - Adjust focus distance ( near/far )
+
+
+## `How does a computer Store an Image ?`
+
+Using OpenCV , it uses RGB color space by default 
+Each pixel coordinate (x,y) contains 3 values ranging for intesity of 0 to 255 (8-bit)
+> Red 
+> Green
+> Blue
+
+Mixing Different intensity of each colour will result in full colour spectrum
+In each array which represents a pixel , the (RGB) data is stored 
+
