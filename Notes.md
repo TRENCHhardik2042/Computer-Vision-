@@ -116,7 +116,7 @@ Each Pixel is a combination of 3 Colours RGB
 
 ## `How does a computer Store an Image ?`
 
-Using OpenCV , it uses RGB color space by default 
+Using OpenCV , it uses RGB color space by default but it stores in BGR format
 Each pixel coordinate (x,y) contains 3 values ranging for intesity of 0 to 255 (8-bit)
 > Red 
 > Green
