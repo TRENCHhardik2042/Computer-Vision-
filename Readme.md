@@ -7,7 +7,7 @@
  ## `Computer Vision Challenges:`
  
  - Camera sensor & Lens limitation
- > Camera sensors preform bad in low light conditions and create noisy images. Pixelateed image will be formed if zoomed. 
+ > Camera sensors preform bad in low light conditions and create noisy images. Pixelated image will be formed if zoomed. 
  
  - Viewpoint Variation
  
