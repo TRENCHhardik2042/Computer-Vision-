@@ -49,3 +49,18 @@ This takes the pixel under a box and replaces the central element.
 
 <img width="415" alt="Screenshot 2022-12-11 at 10 08 24 PM" src="https://user-images.githubusercontent.com/91974776/206916624-9e6b0357-e1f1-4e8c-a59e-48b6e6a0a769.png">
 
+
+- `Image Denoising`
+
+Parameters, after none are - the filter strength 'h' (5-10 is a good range )
+Next is hForColourComponents, set as same value as h again
+
+It takes a while to get the output
+<img width="757" alt="Screenshot 2022-12-11 at 10 19 36 PM" src="https://user-images.githubusercontent.com/91974776/206917028-8905b74a-ff0f-48bd-9e3e-09f21ef0bebb.png">
+
+
+  - Types of Denoising 
+   1) cv2.fastNlMeansDenoisingColored()      -> works with a coloured image
+   2) cv2.fastNlMeansDenoising()             -> works with a greyscaled image
+   3) cv2.fastNlMeansDenoisingMulti()        -> works with image sequence captured in short period of time (greyscale images)
+   4) cv2.fastNlMeansDenoisingColoredMulti() -> works with image sequence captured in short period of time (colored images)
